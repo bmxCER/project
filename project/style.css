@@ -1,0 +1,177 @@
+html{
+  scroll-behavior: smooth;
+}
+*{
+  font-family: 'Rubik', sans-serif;
+}
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+  color: #99A2AA;
+}
+header{
+  margin-left: 135px;
+  margin-top: 20px;
+}
+nav{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+}
+.tabpanel{
+  background: #FEC524;
+  width: 100vw;
+  height: 450px;
+  margin-left: 0;
+}
+.prepaid{
+  position: relative;
+  top: 54px;
+  width: 25vw;
+  margin-left: 135px;
+}
+.forms{
+  position: relative;
+  top: 93px;
+  margin-left: 135px;
+}
+.button{
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+  position: relative;
+  top: 80px;
+}
+.info{
+  margin-top: 100px;
+  margin-left: 135px;
+  display: flex;
+  width: 60vw;
+}
+.container{
+  margin-left: 135px;
+}
+
+
+.divbusiness{
+  background-color: #042C4B;
+  width: 100vw;
+  height: 75vh;
+  margin-top: 100px;
+}
+h2{
+  color: white;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+h4{
+  font-size: 24px;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+img{
+  margin-right: 10px;
+}
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 13vw;
+  column-gap: 5vw;
+  row-gap: 2vh;
+}
+#parcel{
+  width: 570px;
+  height: 72px;
+  border: 0;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+#calculate, #issue, #index, #prepaid{
+  width: 270px;
+  height: 80px;
+  border-radius: 10px;
+  border: 0;
+  color: #99A2AA;
+  box-shadow: 0px 3px 35px 0px rgba(95, 98, 102, 0.17);
+  background-color: white;
+}
+#business{
+  margin-left: 135px;
+}
+#p1{
+  margin-left: 135px;
+}
+#col{
+  width: 50vw;
+  padding-top: 130px;
+}
+#butbusiness{
+  width: 305px;
+  height: 80px;
+  margin-left: 150px;
+  margin-top: 44px;
+  background-color: #FDC13D;
+  border: 0;
+  border-radius: 10px;
+}
+#tabpanel{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 5px;
+  padding-left: 75px;
+  width: 75vw;
+  height: 25vh;
+  background-color: #FDC13D;
+  border-radius: 10px;
+}
+#finance{
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  height: 35vh;
+}
+#inputindex{
+  width: 506px;
+  height: 78px;
+  border: 0;
+  border-radius: 10px;
+  padding-left: 30px;
+}
+#find{
+  width: 249px;
+  height: 80px;
+  border-radius: 10px;
+  background: #FDC13D;
+  border: 0;
+  margin-left: 11px;
+  color: #0E2F4B;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  font-size: 20px;
+  position: relative;
+  top: 3px;
+}
+#col1{
+  padding-top: 135px;
+  margin-left: 135px;
+  width: 60vw;
+  height: 40vh;
+}
+#formfind{
+  margin-top: 80px;
+}
+
+
+
